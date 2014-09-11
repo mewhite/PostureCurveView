@@ -12,6 +12,7 @@
 		2AB9373F19C0A0F1004EC862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB9373D19C0A0F1004EC862 /* Main.storyboard */; };
 		2AB9374119C0A0F1004EC862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB9374019C0A0F1004EC862 /* Images.xcassets */; };
 		2AB9374D19C0A0F1004EC862 /* PostureCurveViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB9374C19C0A0F1004EC862 /* PostureCurveViewTests.swift */; };
+		2AB9375719C0A10C004EC862 /* PostureCurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB9375619C0A10C004EC862 /* PostureCurveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		2AB9374619C0A0F1004EC862 /* PostureCurveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostureCurveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB9374B19C0A0F1004EC862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AB9374C19C0A0F1004EC862 /* PostureCurveViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureCurveViewTests.swift; sourceTree = "<group>"; };
+		2AB9375619C0A10C004EC862 /* PostureCurveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostureCurveView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				2AB9373919C0A0F1004EC862 /* AppDelegate.swift */,
+				2AB9375619C0A10C004EC862 /* PostureCurveView.swift */,
 				2AB9373B19C0A0F1004EC862 /* ViewController.swift */,
 				2AB9373D19C0A0F1004EC862 /* Main.storyboard */,
 				2AB9374019C0A0F1004EC862 /* Images.xcassets */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB9375719C0A10C004EC862 /* PostureCurveView.swift in Sources */,
 				2AB9373C19C0A0F1004EC862 /* ViewController.swift in Sources */,
 				2AB9373A19C0A0F1004EC862 /* AppDelegate.swift in Sources */,
 			);
@@ -395,6 +399,7 @@
 				2AB9375219C0A0F1004EC862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AB9375319C0A0F1004EC862 /* Build configuration list for PBXNativeTarget "PostureCurveViewTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				2AB9375519C0A0F1004EC862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
