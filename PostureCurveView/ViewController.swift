@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //edits to push
+    
     var myPostureCurveView = PostureCurveView(frame: CGRectMake(30, 30, 250, 250))
     
 
